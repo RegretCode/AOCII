@@ -1,7 +1,7 @@
 # Implementação de uma memória cache
 Este é um projeto desenvolvido para a disciplina de Arquitetura e Organização de Computadores II pelo grupo composto por Marcelo Rezende e Ricardo Cordeiro, ambos da turma M2, do curso de Ciência da Computação da Universidade Federal de Pelotas (UFPel). A implementação consiste em um simulador de cache, desenvolvido em linguagem de programação C.
 
-#Execução
+Execução
 
 Para executar a aplicação via terminal, basta passar o nome da aplicação, número de conjuntos, tamanho do bloco, nível de associatividade, política de substituição (no caso, a única disponível é a Random), flag de saída e o arquivo de entrada. O arquivo de entrada deve estar na mesma pasta que o executável do programa.
 
@@ -10,7 +10,7 @@ Para compilar o código corretamente, é necessário adicionar o argumento "-lm"
 
 gcc -Wall -Wextra -g -o cache_simulator cache_simulator.c -lm
 
-#Formato de saída
+Formato de saída
 
 A saída do simulador será um relatório de estatísticas com o número total de acessos, número total hits e misses (os misses deverão ser classificados em compulsórios, capacidade e conflito), que poderá ser exibido em dois formatos, de acordo com o valor do campo flag_saida:
 
@@ -20,7 +20,7 @@ flag = 0;
 flag = 1.
 ![image](https://user-images.githubusercontent.com/90624765/232940444-3419e9a3-9651-49d3-ae61-77a326e566bc.png)
 
-#Bibliotecas utilizadas
+Bibliotecas utilizadas
 
 Foram utilizadas as seguintes bibliotecas:
 
